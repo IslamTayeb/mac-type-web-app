@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		642F63392E24E70B00F88967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 642F63222E24E70A00F88967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 642F63292E24E70A00F88967;
+			remoteInfo = WPMonitor;
+		};
+		642F63432E24E70B00F88967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 642F63222E24E70A00F88967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 642F63292E24E70A00F88967;
+			remoteInfo = WPMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		642F632A2E24E70A00F88967 /* WPMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		642F63382E24E70B00F88967 /* WPMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		642F63422E24E70B00F88967 /* WPMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		642F632C2E24E70A00F88967 /* WPMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WPMonitor;
+			sourceTree = "<group>";
+		};
+		642F633B2E24E70B00F88967 /* WPMonitorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WPMonitorTests;
+			sourceTree = "<group>";
+		};
+		642F63452E24E70B00F88967 /* WPMonitorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WPMonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		642F63272E24E70A00F88967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642F63352E24E70B00F88967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642F633F2E24E70B00F88967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		642F63212E24E70A00F88967 = {
+			isa = PBXGroup;
+			children = (
+				642F632C2E24E70A00F88967 /* WPMonitor */,
+				642F633B2E24E70B00F88967 /* WPMonitorTests */,
+				642F63452E24E70B00F88967 /* WPMonitorUITests */,
+				642F632B2E24E70A00F88967 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		642F632B2E24E70A00F88967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				642F632A2E24E70A00F88967 /* WPMonitor.app */,
+				642F63382E24E70B00F88967 /* WPMonitorTests.xctest */,
+				642F63422E24E70B00F88967 /* WPMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		642F63292E24E70A00F88967 /* WPMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642F634C2E24E70B00F88967 /* Build configuration list for PBXNativeTarget "WPMonitor" */;
+			buildPhases = (
+				642F63262E24E70A00F88967 /* Sources */,
+				642F63272E24E70A00F88967 /* Frameworks */,
+				642F63282E24E70A00F88967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				642F632C2E24E70A00F88967 /* WPMonitor */,
+			);
+			name = WPMonitor;
+			packageProductDependencies = (
+			);
+			productName = WPMonitor;
+			productReference = 642F632A2E24E70A00F88967 /* WPMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		642F63372E24E70B00F88967 /* WPMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642F634F2E24E70B00F88967 /* Build configuration list for PBXNativeTarget "WPMonitorTests" */;
+			buildPhases = (
+				642F63342E24E70B00F88967 /* Sources */,
+				642F63352E24E70B00F88967 /* Frameworks */,
+				642F63362E24E70B00F88967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				642F633A2E24E70B00F88967 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				642F633B2E24E70B00F88967 /* WPMonitorTests */,
+			);
+			name = WPMonitorTests;
+			packageProductDependencies = (
+			);
+			productName = WPMonitorTests;
+			productReference = 642F63382E24E70B00F88967 /* WPMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		642F63412E24E70B00F88967 /* WPMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642F63522E24E70B00F88967 /* Build configuration list for PBXNativeTarget "WPMonitorUITests" */;
+			buildPhases = (
+				642F633E2E24E70B00F88967 /* Sources */,
+				642F633F2E24E70B00F88967 /* Frameworks */,
+				642F63402E24E70B00F88967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				642F63442E24E70B00F88967 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				642F63452E24E70B00F88967 /* WPMonitorUITests */,
+			);
+			name = WPMonitorUITests;
+			packageProductDependencies = (
+			);
+			productName = WPMonitorUITests;
+			productReference = 642F63422E24E70B00F88967 /* WPMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		642F63222E24E70A00F88967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					642F63292E24E70A00F88967 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					642F63372E24E70B00F88967 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 642F63292E24E70A00F88967;
+					};
+					642F63412E24E70B00F88967 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 642F63292E24E70A00F88967;
+					};
+				};
+			};
+			buildConfigurationList = 642F63252E24E70A00F88967 /* Build configuration list for PBXProject "WPMonitor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 642F63212E24E70A00F88967;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 642F632B2E24E70A00F88967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				642F63292E24E70A00F88967 /* WPMonitor */,
+				642F63372E24E70B00F88967 /* WPMonitorTests */,
+				642F63412E24E70B00F88967 /* WPMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		642F63282E24E70A00F88967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642F63362E24E70B00F88967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642F63402E24E70B00F88967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		642F63262E24E70A00F88967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642F63342E24E70B00F88967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642F633E2E24E70B00F88967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		642F633A2E24E70B00F88967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 642F63292E24E70A00F88967 /* WPMonitor */;
+			targetProxy = 642F63392E24E70B00F88967 /* PBXContainerItemProxy */;
+		};
+		642F63442E24E70B00F88967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 642F63292E24E70A00F88967 /* WPMonitor */;
+			targetProxy = 642F63432E24E70B00F88967 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		642F634A2E24E70B00F88967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QP5RS325Z4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		642F634B2E24E70B00F88967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QP5RS325Z4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		642F634D2E24E70B00F88967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WPMonitor/WPMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP5RS325Z4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IslamTayeb.WPMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		642F634E2E24E70B00F88967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WPMonitor/WPMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP5RS325Z4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IslamTayeb.WPMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		642F63502E24E70B00F88967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP5RS325Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IslamTayeb.WPMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WPMonitor";
+			};
+			name = Debug;
+		};
+		642F63512E24E70B00F88967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP5RS325Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IslamTayeb.WPMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WPMonitor";
+			};
+			name = Release;
+		};
+		642F63532E24E70B00F88967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP5RS325Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IslamTayeb.WPMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WPMonitor;
+			};
+			name = Debug;
+		};
+		642F63542E24E70B00F88967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP5RS325Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IslamTayeb.WPMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WPMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		642F63252E24E70A00F88967 /* Build configuration list for PBXProject "WPMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642F634A2E24E70B00F88967 /* Debug */,
+				642F634B2E24E70B00F88967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642F634C2E24E70B00F88967 /* Build configuration list for PBXNativeTarget "WPMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642F634D2E24E70B00F88967 /* Debug */,
+				642F634E2E24E70B00F88967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642F634F2E24E70B00F88967 /* Build configuration list for PBXNativeTarget "WPMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642F63502E24E70B00F88967 /* Debug */,
+				642F63512E24E70B00F88967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642F63522E24E70B00F88967 /* Build configuration list for PBXNativeTarget "WPMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642F63532E24E70B00F88967 /* Debug */,
+				642F63542E24E70B00F88967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 642F63222E24E70A00F88967 /* Project object */;
+}
